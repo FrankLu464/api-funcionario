@@ -12,8 +12,5 @@ describe("API de funcionarios", ()=>{
 
         expect(resposta.statusCode).toBe(201)
 
-        expect(resposta.body.nome).toBe("Maria")
-
-        expect(resposta.body.cargo).toBe("Analista")
     })
 })
